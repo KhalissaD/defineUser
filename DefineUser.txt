@@ -1,0 +1,26 @@
+DefineUser
+
+gender: string (ou boolean ?)
+age: integer
+
+gender <- "homme" or "femme"
+Write("Quel est votre genre ?")
+Read(gender)
+Write("Quel âge avez-vous ?")
+Read(age)
+
+if gender="femme" and age >=18 then
+	write("Vous êtes une femme et vous êtes majeure")
+else if age < 18 and gender="femme" then
+	write("Vous êtes une femme et vous êtes mineure")
+else if gender="homme" then
+	write("Vous êtes un homme et vous êtes mineur")
+else if age >=18 then
+	write ("Vous êtes un homme et vous êtes majeur")
+
+endif
+
+
+
+
+
